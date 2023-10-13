@@ -1,0 +1,257 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 26px;
+}
+h2 {
+  text-align: center;
+  font-size: 22px
+}
+h3 {
+  text-align: left;
+  font-size: 20px;
+}
+h4 {
+  text-align: center;
+  font-size: 18px;
+}
+h5 {
+  text-align: center;
+  font-size: 16px;
+}
+h6 {
+  text-align: center;
+  font-size: 14px;
+}
+body {
+    background-color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: black;
+    padding-bottom: 30px;
+    padding-top: 35px;
+    text-align: center;
+}
+p {
+  text-align: center;
+  text-indent: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  background-color: white;
+  border: none;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+.Images{
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 35%;
+}
+a:link {
+  color: blue;
+  padding: 4px;
+  border: 2px;
+  margin: 5px;
+}
+a:active {
+  color: rosybrown;
+  padding: 4px;
+  border: 2px;
+  margin: 5px;
+}
+a:visited {
+  color: purple;
+  padding: 4px;
+  border: 2px;
+  margin: 5px;
+}
+a:hover {
+  color: skyblue;
+  padding: 4px;
+  border: 2px;
+  margin: 5px;
+}
+.video{
+  text-align: center;
+}
+.header-container{
+  display: flex;
+  flex-direction: column;
+  color: blue;
+  padding-top: 5px;
+  margin-bottom: 16px;
+  text-align: center;
+  background-color: yellow;
+}
+.header-middle-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: skyblue;
+}
+#header-video{
+  width: 14.15cm;
+  height: 8cm;
+  text-align: center;
+  padding: 2px;
+  border: 1px;
+}
+.header-item{
+  text-align: center;
+}
+.header-item:nth-of-type(1){
+  width: 100%;
+}
+.header-item:nth-of-type(2){
+  width: 100%;
+}
+#header-image{
+  max-width: 100%;
+  width: 80%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.header-button{
+  font-size: 18px;
+  text-align: center;
+  padding: 5px 5px;
+  margin: 4px 4px;
+  border: 4px 4px;
+  cursor: pointer;
+}
+.sub-header{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  text-align: center;
+}
+.navbar ul {
+  z-index: 1;
+  background-color: #85792e;
+  margin-block-start: 0px;
+  list-style: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.navbar ul li {
+  float: left;
+  margin: 5px;
+}
+.navbar ul li a {
+  display: block;
+  font-family: Arial;
+  color: black;
+  font-size: 14px;
+  padding: 5px;
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  font-weight: bold;
+  color: #28281f;
+  background-color: gray;
+}
+#theme-button {
+  background-color: white;
+  text-decoration: none;
+  color: gold;
+  font-size: 16px;
+  text-align: center;
+  padding: 2px;
+  margin: 3px;
+  border-radius: 3px;
+  border: solid black;
+}
+.dark-mode {
+  background-color: #1d1b1b;
+  color: white;
+}
+.crypto-container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.crypto-description {
+  width: 60%;
+  padding-right: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+.Support {
+  width: 40%;
+  padding-right: 10px;
+  font-size: 16px;
+}
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
+.revealable {
+  position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  background-color: #7f9ec7;
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#modal-image{
+  width: 45%;
+}
+#thanks-modal-content {
+  width: 20rem;
+}
+#modal-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Crypto Times </title>
+  <link rel="icon" href="Images/icon.webp">
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="header-container">
+    <div class="navbar">
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#News">News</a></li>
+        <li><a href="#Top Crypto">Watchlists</a></li>
+        <li><button id="theme-button">Toggle Dark Mode</button></li>
+      </ul>
+    </div>
+    <div>
+        <img id="header-image" src="Images/backgrounds.jpg" />
+    </div>
+      <div class="header-item">
+        <h1>Crypto Times</h1>
+        <h1>Get your crypto news today</h1>
+      </div>
+      <div class="header-button">
+        <button id="left-button" type="button">More News</button>
+        <button id="right-button" type="button">Questions</button>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p> <a href="https://www.tradingview.com/"> Track your own Crypto
+    <p> <a href="https://www.coindesk.com/"> Check the Crypto News </a> </p>
+  </div>
+  <h2 class="revealable"> Welcome to the Crypto Times where you will explore many top trending news on the crypto. Crypto is a digital currency in which transactions are verified and records maintained by a decentralized system using cryptography, rather than by a centralized authority. There is still time to start your own investment today. </h2>
+  <br>
+  <iframe class="video revealable" width="560" height="315" src="https://www.youtube.com/embed/1YyAzVmP9xQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <div class="sub-header revealable">
+    <p class = 'revealable'>Investing involves risk, including risk of loss. Crypto is highly volatile and is for investors with a high risk tolerance. Government regulation in crypto is large influence on the crypto market. There are still ongoing project to improve the cryptocurrency blockchain. 
+    </p>
+  </div>
+  <div class="News revealable">
+    <h4 id="News"> News </h4>
+    <ol>
+      <li>Collapse of Terra Luna</li>
+      <li>Collapse of FTX</li>
+      <li>Collapse of Silicon Valley</li>
+      <li>Ethereum merge from PoW(proof of work) to PoS(proof of stake)</li>
+      <li>Ethereum first upgrade after merge</li>
+    </ol>
+  </div>
+  <img class="Images revealable" src="Images/Bitcoin-gif.gif">
+  <div class="Top Crypto revealable">
+    <h4 id="Top Crypto"> Top 3 Crypto by Market </h4>
+    <ol>
+      <li>Bitcoin (BTC)</li>
+      <li>Ethereum (ETH)</li>
+      <li>Tether (USDT)</li>
+    </ol>
+  </div>
+
+  <div class="Champion revealable" id="Champion">
+    <h3>Decide on your favorite Crypto</h3>
+    <div class="crypto-container">
+      <div class="crypto-description">
+        There are many crypto in the market. Not all of the crypto become a successful in the future. 
+        One of the most successful release of cryptocurrency is Bitcoin which is the first ever crypto release. Many believed that BTC will failed but till this day it gain it values of one BTC coin from US$0.0008 to US 29,382.40 (4/28/2023).
+        Many crypto will develop to the current standard that BTC currently has, but some may loses it value.
+        Now is the chance to do your own research and decide on what crypto you will like to invest in and become one the rich. 
+      </div>
+      <div class="Support">
+        <p>  Robert McCue believes ETH.</p>
+        <p> Andrew Lin believes the SOL.</p>
+        <p> Bobby Vi believes the BTC.</p>
+      </div>
+    </div>
+    <form id="predictions" title="predictions">
+      <label for='name'>Name:</label>
+      <input type='text' id='name' placeholder='Name' required>
+      <label for="crypto">Crypto:</label>
+      <input type='text' id='crypto' placeholder='Crypto' required>
+    </form>
+    <button id="submit-now-button">Submit</button>
+  </div>
+<div id="thanks-modal" class="modal">
+  <div class="modal-content">
+    <div id="modal-text-container">
+      <p id="thanks-modal-content">Thank you for submitting your form and supporting crypto!</p>
+      <img id="modal-image" src="Images/modal.webp"
+    </div>
+  </div>
+</div>
+
+  <script src="index.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
